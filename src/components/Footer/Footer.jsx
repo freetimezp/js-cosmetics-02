@@ -36,7 +36,7 @@ const Footer = () => {
 
                 <div className={css.block}>
                     <div className={css.detail}>
-                        <span>Contact Us</span>
+                        <span>Account</span>
                         <span className={css.pngLine}>
                             <LoginIcon className={css.icon} />
                             Sign In                            
@@ -46,7 +46,7 @@ const Footer = () => {
 
                 <div className={css.block}>
                     <div className={css.detail}>
-                        <span>Contact Us</span>
+                        <span>Company</span>
                         <span className={css.pngLine}>
                             <UsersIcon className={css.icon} />
                             <a href="/about">
@@ -58,7 +58,7 @@ const Footer = () => {
 
                 <div className={css.block}>
                     <div className={css.detail}>
-                        <span>Contact Us</span>
+                        <span>Resources</span>
                         <span className={css.pngLine}>
                             <LinkIcon className={css.icon} />
                             <p>Safety Privacy & Terms</p>

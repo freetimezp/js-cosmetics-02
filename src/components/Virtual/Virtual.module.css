@@ -38,9 +38,24 @@
     width: 30rem;
 }
 
+@media screen and (max-width: 856px) {
+    .virtual {
+        flex-direction: column;
+        gap: 1rem;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        padding: 1rem;
+        text-align: center;
+    }
+}
 
-
-
+@media screen and (max-width: 640px) {
+    .wrapper {
+        width: 26rem;
+    }
+}
 
 
 

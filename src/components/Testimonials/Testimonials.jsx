@@ -27,6 +27,20 @@ const Testimonials = () => {
 
             <div className={css.carousel}>
                 <Swiper
+                    breakpoints={{
+                        856: {
+                            slidesPerView: 3,
+                            spaceBetween: 20,
+                        },
+                        640: {
+                            slidesPerView: 2,
+                            spaceBetween: 20,
+                        },
+                        0: {
+                            slidesPerView: 1,
+                            spaceBetween: 10,
+                        }
+                    }}
                     slidesPerView={3}
                     slidesPerGroup={1}
                     spaceBetween={60}
@@ -36,10 +50,10 @@ const Testimonials = () => {
                         <SwiperSlide key={i}>
                             <div className={css.testimonial}>
                                 <img src={testimonial.image} alt="testimonial" />
-                                <span>{testimonial.comment}</span> 
+                                <span>{testimonial.comment}</span>
                                 <hr />
                                 <span>{testimonial.name}</span>
-                            </div>  
+                            </div>
                         </SwiperSlide>
                     ))}
                 </Swiper>
